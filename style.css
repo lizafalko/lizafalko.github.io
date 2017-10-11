@@ -1,0 +1,83 @@
+html,
+body {
+	font-family: 'Shadows Into Light', cursive, sans-serif;
+	height: 100%;
+	font-size: 24px;
+	margin: 0 !important;
+}
+
+.main-page {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-page__block {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.main-page__picture {
+	text-align: center;
+	padding: 16px;
+	border-radius: 50%;
+	transition: .3s ease;
+}
+
+.main-page__picture:hover {
+	padding: 32px;
+} 
+
+.main-page__picture:nth-child(1) {
+	background-color: #FFFFC1;
+}
+
+.main-page__picture:nth-child(2) {
+	background-color: #FFD2A5;
+}
+
+.main-page__picture:nth-child(3) {
+	background-color: #FFA8B8;
+}
+
+.main-page__picture:nth-child(4) {
+	background-color: #D988BC;
+}
+
+.main-page__link {
+	text-decoration: none;
+	color: #232b2b;
+	transition: .1s ease-in;
+}
+
+.main-page__link:hover {
+	color: #696969;
+}
+
+.main-page__photo {
+	width: 200px;
+    height: 200px;
+	border-radius: 50%;
+	transition: .3s ease;
+}
+
+.main-page__photo:hover {
+	width: 220px;
+    height: 220px;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+::selection {
+background: #D988BC;
+}
+::-moz-selection {
+background: #D988BC;
+}
