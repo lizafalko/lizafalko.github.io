@@ -68,6 +68,10 @@ body {
     height: 220px;
 }
 
+.main-page__link-none {
+	text-decoration: none;
+}
+
 .footer {
 	display: flex;
 	align-items: center;
